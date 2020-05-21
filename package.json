@@ -2,9 +2,11 @@
   "name": "qrqlib",
   "version": "0.1.0",
   "private": true,
+  "main": "./dist/dummylib.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name qrqlib src/main.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
